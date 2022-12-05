@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\bin\Debug\net6.0\Berzerker_AlonBrayer.exe
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\bin\Debug\net6.0\Berzerker_AlonBrayer.deps.json
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\bin\Debug\net6.0\Berzerker_AlonBrayer.runtimeconfig.json
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\bin\Debug\net6.0\Berzerker_AlonBrayer.dll
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\bin\Debug\net6.0\Berzerker_AlonBrayer.pdb
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\Berzerker_AlonBrayer.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\Berzerker_AlonBrayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\Berzerker_AlonBrayer.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\Berzerker_AlonBrayer.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\Berzerker_AlonBrayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\Berzerker_AlonBrayer.dll
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\refint\Berzerker_AlonBrayer.dll
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\Berzerker_AlonBrayer.pdb
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\Berzerker_AlonBrayer.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\Berzerker_AlonBrayer\Berzerker_AlonBrayer\obj\Debug\net6.0\ref\Berzerker_AlonBrayer.dll

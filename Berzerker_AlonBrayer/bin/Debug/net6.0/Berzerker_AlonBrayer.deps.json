@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Berzerker_AlonBrayer/1.0.0": {
+        "runtime": {
+          "Berzerker_AlonBrayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Berzerker_AlonBrayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
