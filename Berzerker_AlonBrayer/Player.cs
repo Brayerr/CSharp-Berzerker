@@ -14,16 +14,16 @@ namespace Berzerker_AlonBrayer
 
         Random rand = new Random();
         Loot loot = new Loot();
-        
+
         public List<Unit> army = new List<Unit>();
         public List<string> inventory = new List<string>();
         public Player(string name, int race)
         {
             Name = name;
-            Race = race;            
+            Race = race;
         }
 
-        public int RandomLootChoose()
+        int RandomNumProvider()
         {
             return rand.Next(1, 6);
         }
@@ -64,9 +64,9 @@ namespace Berzerker_AlonBrayer
                                 }
                             case 3:
                                 {
-                                    Bishop bishop = new("Bishop");                                                                        
+                                    Bishop bishop = new("Bishop");
                                     list.Add(bishop);
-                                    break;                                        
+                                    break;
                                 }
                             default:
                                 break;
@@ -93,7 +93,7 @@ namespace Berzerker_AlonBrayer
                                 {
                                     ArchBishop archBishop = new("Archbishop");
                                     list.Add(archBishop);
-                                    break;   
+                                    break;
                                 }
                             default:
                                 break;
@@ -118,10 +118,10 @@ namespace Berzerker_AlonBrayer
                                     break;
                                 }
                             case 3:
-                                {   
+                                {
                                     Doctor doctor = new("Doctor");
                                     list.Add(doctor);
-                                    break;                                                 
+                                    break;
                                 }
                             default:
                                 break;
@@ -133,37 +133,37 @@ namespace Berzerker_AlonBrayer
             }
 
         }
-        
+
         public void InstantiateNewInventory(List<string> inventory)
         {
             inventory.Capacity = CarryingCapacity;
-            switch (RandomLootChoose())
+            switch (RandomNumProvider())
             {
                 case 1:
-                    {
-                        inventory.Add(loot.Stone);
-                        break;
-                    }
+
+                    inventory.Add(loot.Stone);
+                    break;
+
                 case 2:
-                    {
-                        inventory.Add(loot.Wood);
-                        break;
-                    }
+
+                    inventory.Add(loot.Wood);
+                    break;
+
                 case 3:
-                    {
-                        inventory.Add(loot.Gem);
-                        break;
-                    }
+
+                    inventory.Add(loot.Gem);
+                    break;
+
                 case 4:
-                    {
-                        inventory.Add(loot.Gold);
-                        break;
-                    }
+
+                    inventory.Add(loot.Gold);
+                    break;
+
                 case 5:
-                    {
-                        inventory.Add(loot.Potion);
-                        break;
-                    }
+
+                    inventory.Add(loot.Potion);
+                    break;
+
                 default:
                     break;
             }

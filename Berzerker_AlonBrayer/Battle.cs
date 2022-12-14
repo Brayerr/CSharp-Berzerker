@@ -37,16 +37,13 @@ namespace Berzerker_AlonBrayer
 
                 switch (army1.ElementAt(unitChosen1).Role)
                 {
+                    case "Ranged":
                     case "Melee":
                         {
                             army1.ElementAt(unitChosen1).Attack(army2.ElementAt(unitChosen2));
                             break;
                         }
-                    case "Ranged":
-                        {
-                            army1.ElementAt(unitChosen1).Attack(army2.ElementAt(unitChosen2));
-                            break;
-                        }
+
                     case "Support":
                         {
                             int unitChosenToHeal1 = rand.Next(army1.Count);
@@ -64,16 +61,13 @@ namespace Berzerker_AlonBrayer
 
                 switch (army2.ElementAt(unitChosen2).Role)
                 {
+                    case "Ranged":
                     case "Melee":
                         {
                             army2.ElementAt(unitChosen2).Attack(army1.ElementAt(unitChosen1));
                             break;
                         }
-                    case "Ranged":
-                        {
-                            army2.ElementAt(unitChosen2).Attack(army1.ElementAt(unitChosen1));
-                            break;
-                        }
+
                     case "Support":
                         {
                             int unitChosenToHeal2 = rand.Next(army2.Count);
@@ -134,7 +128,7 @@ namespace Berzerker_AlonBrayer
             }
         }
 
-        public int WeatherEffectChooser()
+        int WeatherEffectChooser()
         {
             if (rand.NextDouble() > .7f)
             {

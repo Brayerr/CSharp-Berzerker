@@ -2,7 +2,7 @@
 Random rand = new();
 Player player1 = new("AB", RandomRaceChooser());
 Player player2 = new("DBD", RandomRaceChooser());
-Loot l = new();
+Loot loot = new();
 
 for (int i = 0; i < rand.Next(3, 6); i++)
 {
@@ -16,7 +16,7 @@ for (int i = 0; i < rand.Next(2, 6); i++)
 
 for (int i = 0; i < rand.Next(3, 6); i++)
 {
-    player1.InstantiateNewUnit(player2.Race, player2.army);
+    player2.InstantiateNewUnit(player2.Race, player2.army);
 }
 
 for (int i = 0; i < rand.Next(2, 6); i++)
@@ -57,7 +57,7 @@ b.BattleLoop(player1.army, player2.army);
 
 if (b.player1Win)
 {
-    l.LootTransferer(player2, player1);
+    loot.LootTransferer(player2, player1);
     Console.WriteLine(player1.Name + " has won and looted all of " + player2.Name + "'s inventory");
     Console.WriteLine(player1.Name + "'s inventory");
     foreach (var item in player1.inventory)
@@ -68,7 +68,7 @@ if (b.player1Win)
 
 else if(b.player2Win)
 {
-    l.LootTransferer(player1, player2);
+    loot.LootTransferer(player1, player2);
     Console.WriteLine(player2.Name + " has won and looted all of " + player1.Name + "'s inventory");
     Console.WriteLine(player2.Name + "'s inventory");
     foreach (var item in player2.inventory)

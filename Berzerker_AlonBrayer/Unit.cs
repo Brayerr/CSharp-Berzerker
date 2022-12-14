@@ -522,7 +522,7 @@ namespace Berzerker_AlonBrayer
     }
 
 
-
+    //random number providers
     public struct Dice : IRandomProvider
     {
         Random rand = new();
@@ -572,7 +572,7 @@ namespace Berzerker_AlonBrayer
 
         public override int GetHashCode()
         {
-            return 777;
+            return (int)Scalar * (int)BaseDie + Modifier;
         }
 
         public int Provide()

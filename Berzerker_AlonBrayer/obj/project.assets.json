@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Berzerker_AlonBrayer\\Berzerker_AlonBrayer\\Berzerker_AlonBrayer.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Berzerker_AlonBrayer\\CSharp-Codes\\Berzerker_AlonBrayer\\Berzerker_AlonBrayer.csproj",
       "projectName": "Berzerker_AlonBrayer",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\Berzerker_AlonBrayer\\Berzerker_AlonBrayer\\Berzerker_AlonBrayer.csproj",
+      "projectPath": "C:\\Users\\ASUS\\source\\repos\\Berzerker_AlonBrayer\\CSharp-Codes\\Berzerker_AlonBrayer\\Berzerker_AlonBrayer.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\Berzerker_AlonBrayer\\Berzerker_AlonBrayer\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\source\\repos\\Berzerker_AlonBrayer\\CSharp-Codes\\Berzerker_AlonBrayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
