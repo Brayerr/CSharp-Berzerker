@@ -537,22 +537,6 @@ namespace Berzerker_AlonBrayer
             Modifier = _modifier;
         }
 
-        //public int Roll()
-        //{
-        //    int sum = Modifier;
-        //    if(Scalar > 0)
-        //    {
-        //        for (int i = 0; i < Scalar; i++)
-        //        {
-        //            sum += rand.Next(1, (int)BaseDie);
-        //        }
-        //        return sum;
-        //    }
-        //    else
-        //    {
-        //        return sum = 0;
-        //    }
-        //}
 
         public void AddWeaponDamage(int weaponDamage)
         {
